@@ -1,0 +1,53 @@
+.pagina {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f5f9;
+  font-family: Arial, sans-serif;
+}
+
+.pagina h1 {
+  color: #000000;
+}
+
+.contador {
+  background-color: white;
+  padding: 35px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contador h2 {
+  font-size: 56px;
+  color: #6d0a0a;
+  margin: 10px 0 25px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.botoes button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #6d0a0a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.botoes button:hover {
+  background-color: #9b0808;
+}
+
+.pagina p {
+  color: #64748b;
+  margin-top: 20px;
+}
